@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+	margin: 0;
+	padding: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+.cards {
+	width: min-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.cards12 {
+	align-items: flex-end;
+}
+
+.cards34 {
+	align-items: flex-start;
+}
+
+.cardcont {
+    position: relative;
+    width: 50vw !important;
+    height: 50vh !important;
+}
+
+.card1 {
+    position: absolute;
+    bottom: 1vmin;
+    right: 1vmin;
+}
+
+.card2 {
+    position: absolute;
+    top: 1vmin;
+    right: 1vmin;
+}
+
+.card3 {
+    position: absolute;
+    bottom: 1vmin;
+    left: 1vmin;
+}
+
+.card4 {
+    position: absolute;
+    top: 1vmin;
+    left: 1vmin;
+}
+
+.card {
+    background-color: white;
+	width: 50%;
+	padding: 3vmin;
+	border-radius: 1vmin;
+	font-size: 2vmin;
+}
+
+.card1 {
+	width: 64vmin;
+}
+
+.card4 {
+	width: 54vmin;
+}
+
+.card2 {
+	width: 50vmin;
+}
+
+.card3 {
+	width: 64vmin;
+}
+
+body {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+    background-color: black;
+}
+
+.profile {
+    margin-top: 4vmin;
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 7.5vmin;
+    height: 7.5vmin;
+    margin-right: 2vmin;
+}
